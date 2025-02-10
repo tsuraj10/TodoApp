@@ -7,7 +7,7 @@ import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/TodoApp">
       <div>
         <Navbar />
         <Routes>
